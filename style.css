@@ -1,0 +1,23 @@
+h3 {
+    color:black;
+}
+
+.btn-light:hover {
+    background-color:darkslategray;
+    color:whitesmoke
+}
+
+canvas {
+    animation-name:gradient;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gradient {
+    from {
+        box-shadow: 3px 3px 60px black;
+    }
+    to {
+        box-shadow: 3px 3px 60px whitesmoke;
+    }
+}
